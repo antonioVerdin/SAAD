@@ -2,7 +2,7 @@ package com.examenordinarioaplicacionesweb.demo.entidades;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.util.Set;
+
 
 @Data
 @Entity
@@ -10,6 +10,9 @@ import java.util.Set;
 
 public class Tipo {
 
+    @Id
+    @Column(name = "id_Tipo")
+    private String id;
     @Column(name="tipo_animal")
     private String tipo;
 
