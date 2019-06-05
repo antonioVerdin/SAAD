@@ -7,7 +7,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 body {
     margin: 0;
     padding: 0;
-    background: #000000 url(images/img01.jpg) repeat left top;
+    background: #000000 url(../images/img01.jpg) repeat left top;
     font-size: 14px;
     text-align: justify;
     color: #ABABAB;
@@ -89,7 +89,7 @@ input, textarea, select {
     margin: 0;
     padding: 0;
     height: 350px;
-    background: url(images/img02.jpg) repeat-x left top;
+    background: url(../images/img02.jpg) repeat-x left top;
 }
 
 /* Header */
@@ -106,7 +106,7 @@ input, textarea, select {
     float: left;
     width: 810px;
     height: 60px;
-    background: url(images/img03.jpg) no-repeat left top;
+    background: url(../images/img03.jpg) no-repeat left top;
 }
 
 #menu ul {
@@ -119,7 +119,7 @@ input, textarea, select {
 #menu li {
     display: block;
     float: left;
-    background: url(images/img06.jpg) no-repeat left 50%;
+    background: url(../images/img06.jpg) no-repeat left 50%;
 }
 
 #menu a {
@@ -149,7 +149,7 @@ input, textarea, select {
     width: 810px;
     height: 260px;
     margin: 0 auto;
-    background: url(images/img04.jpg) no-repeat left top;
+    background: url(../images/img04.jpg) no-repeat left top;
 }
 
 #logo h1, #logo h2 {
@@ -200,7 +200,7 @@ input, textarea, select {
     float: left;
     width: 520px;
     margin-top: 15px;
-    background: url(images/img10.jpg) no-repeat left top;
+    background: url(images/img01.jpg) no-repeat left top;
 
 }
 
@@ -219,7 +219,7 @@ input, textarea, select {
     width: 520px;
     height: 60px;
     padding: 20px 0 0 15px;
-    background: url(images/img08.jpg) no-repeat left top;
+    background: url(../images/img08.jpg) no-repeat left top;
     font-size: 24px;
     color: #DADADA;
 }
@@ -228,7 +228,7 @@ input, textarea, select {
     width: 520px;
     height: 60px;
     padding: 20px 0 0 15px;
-    background: url(images/img08.jpg) no-repeat left top;
+    background: url(../images/img08.jpg) no-repeat left top;
     font-size: 22px;
     color: #DADADA;
 }
@@ -304,7 +304,7 @@ input, textarea, select {
     height: 60px;
     padding: 8px 0 0 25px;
     margin-bottom: 10px;
-    background: url(images/img07.jpg) no-repeat left top;
+    background: url(../images/img07.jpg) no-repeat left top;
     font-size: 20px;
     color: #DADADA;
 }
@@ -367,7 +367,7 @@ input, textarea, select {
     width: 810px;
     height: 60px;
     margin: 0 auto;
-    background: url(images/img05.jpg) no-repeat left top;
+    background: url(../images/img05.jpg) no-repeat left top;
 }
 
 #footer {
