@@ -28,6 +28,7 @@ public class Animales {
         private int cantidad;
         @Column(name="modelo",nullable = false)
         private String modelo;
+
         @OneToOne
         @JoinColumn(name="id_tipoMaterial",nullable = false)
         private TipoMaterial tipoMaterial;

@@ -120,6 +120,7 @@ input, textarea, select {
     display: block;
     float: left;
     background: url(../images/img06.jpg) no-repeat left 50%;
+}
 
 #menu a {
     display: block;
@@ -199,7 +200,7 @@ input, textarea, select {
     float: left;
     width: 520px;
     margin-top: 15px;
-    background: url(../images/img10.jpg) no-repeat left top;
+    background: url(images/img01.jpg) no-repeat left top;
 
 }
 
