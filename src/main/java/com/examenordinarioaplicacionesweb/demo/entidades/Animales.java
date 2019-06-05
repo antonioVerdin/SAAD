@@ -13,7 +13,7 @@ public class Animales {
 
 
 
-//
+
         @Id
         @Column(name="idAnimales")
         private int idAnimales;
