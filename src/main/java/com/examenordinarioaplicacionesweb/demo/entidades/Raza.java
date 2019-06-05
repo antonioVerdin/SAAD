@@ -2,7 +2,7 @@ package com.examenordinarioaplicacionesweb.demo.entidades;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.util.Set;
+
 
 @Data
 @Entity
@@ -10,6 +10,10 @@ import java.util.Set;
 
 public class Raza {
 
+
+    @Id
+    @Column(name = "id_raza")
+    private String id;
     @Column(name="raza")
     private String raza;
 
