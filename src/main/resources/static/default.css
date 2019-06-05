@@ -197,7 +197,7 @@ input, textarea, select {
 /* Content */
 
 #content {
-    float: left;
+    float: top;
     width: 520px;
     margin-top: 15px;
     background: url(images/img01.jpg) no-repeat left top;
