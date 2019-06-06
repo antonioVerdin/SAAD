@@ -1,4 +1,4 @@
-package com.examenordinarioaplicacionesweb.demo.modelos;
+/*package com.examenordinarioaplicacionesweb.demo.modelos;
 
 import lombok.Data;
 
@@ -7,3 +7,4 @@ public class modeloTipo {
     private int id;
     private String tipo;
 }
+*/

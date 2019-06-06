@@ -22,6 +22,16 @@ public class Animal {
         @Column(name="fecha_adopcion")
         private String fechaAdopcion;
 
+        @Column(name="url_de_imagen")
+        private String url;
+
+        @Column(name="raza")
+        private String raza;
+
+        @Column(name="tipo_animal")
+        private String tipo;
+
+        /*
         @OneToOne(fetch = FetchType.EAGER) // Evitar errores
         @JoinColumn(name="id_imagen")
         private Imagen imagen;
@@ -33,5 +43,6 @@ public class Animal {
         @ManyToOne(fetch = FetchType.EAGER)
         @JoinColumn(name="id_tipo")
         private Tipo tipo;
+        */
 
 }

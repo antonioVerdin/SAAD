@@ -1,4 +1,4 @@
-package com.examenordinarioaplicacionesweb.demo.entidades;
+/*package com.examenordinarioaplicacionesweb.demo.entidades;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -14,8 +14,6 @@ public class Raza {
     @Id
     @Column(name = "id_raza")
     private int id;
-    @Column(name="raza")
-    private String raza;
 
 /*
         @OneToOne
@@ -23,6 +21,7 @@ public class Raza {
         private TipoUsuario idtipousuario;
         @Column(name="administrador")
         private boolean administrador;
-*/
+
 
 }
+*/

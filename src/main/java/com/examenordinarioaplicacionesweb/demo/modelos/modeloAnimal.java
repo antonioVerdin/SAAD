@@ -10,7 +10,8 @@ public class modeloAnimal {
     private String nombre;
     private String fechaNacimiento;
     private String fechaAdopcion;
-
-
+    private String url;
+    private String raza;
+    private String tipo;
 
 }
