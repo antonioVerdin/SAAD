@@ -1,4 +1,4 @@
-package com.examenordinarioaplicacionesweb.demo.controladores;
+package com.examenordinarioaplicacionesweb.demo.Controladores;
 
 import com.examenordinarioaplicacionesweb.demo.Vistas.ViewConstants;
 import org.springframework.stereotype.Controller;

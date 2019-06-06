@@ -15,7 +15,7 @@ public class RegistroController {
     //@GetMapping("/index")
     public String RegistroController(Model modelos , @RequestParam(name = "id_animal", required = false) String id_animal) {
 
-      //  private UsuarioService usuarioService;
+
 
 
 
