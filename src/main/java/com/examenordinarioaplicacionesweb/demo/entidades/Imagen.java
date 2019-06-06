@@ -11,9 +11,10 @@ public class Imagen {
 
     @Id
     @Column(name = "id_imagen")
-    private String id;
+    private int id;
     @Column(name="url_de_imagen")
     private String url;
+
 
 
 /*

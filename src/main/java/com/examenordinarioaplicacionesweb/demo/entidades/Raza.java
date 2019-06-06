@@ -13,7 +13,7 @@ public class Raza {
 
     @Id
     @Column(name = "id_raza")
-    private String id;
+    private int id;
     @Column(name="raza")
     private String raza;
 

@@ -6,6 +6,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link th:href="@{/static/default.css}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../static/default.css">
 
 </head>
 
@@ -44,7 +45,7 @@
 
     <tbody>
     <tr th:each="user : ${users}">
-        <td th:text="${user.idUsuario}"></td>
+        <td th:text="${animal.dUsuario}"></td>
         <td th:text="${user.contrasena}"></td>
         <td th:text="${user.nombre}"></td>
         <td th:text="${user.apellido}"></td>

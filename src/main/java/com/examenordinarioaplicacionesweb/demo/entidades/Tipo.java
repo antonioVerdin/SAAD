@@ -12,7 +12,7 @@ public class Tipo {
 
     @Id
     @Column(name = "id_Tipo")
-    private String id;
+    private int id;
     @Column(name="tipo_animal")
     private String tipo;
     /* @OneToOne
