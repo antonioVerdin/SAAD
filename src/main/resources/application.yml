@@ -15,7 +15,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-      naming:o0
+      naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     properties:
       hibernate:
