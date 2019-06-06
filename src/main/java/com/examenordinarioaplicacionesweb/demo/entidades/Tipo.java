@@ -15,12 +15,9 @@ public class Tipo {
     private String id;
     @Column(name="tipo_animal")
     private String tipo;
-
-/*
-        @OneToOne
+    /* @OneToOne
         @JoinColumn(name="id_animal")
         private TipoUsuario idtipousuario;
         @Column(name="administrador")
-        private boolean administrador;
-*/
+        private boolean administrador;*/
 }
