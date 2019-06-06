@@ -34,20 +34,50 @@
 <div id="page"><!-- start content -->
     <center><div id="content">
         <div class="post">
-            <h1 class="title">Welcome to our website </h1>
+            <h1 class="title">Lista  de Mascotas en Adopcion </h1>
             <div class="entry">
-                <p>This is Best Friends, is a free template from <a href="http://freecsstemplates.org/">Free CSS Templates</a>
+
+                <thead>
+                <tr>
+                    <th>Id Animal</th>
+                    <th>Nombre</th>
+                    <th>Fecha Nacimiento</th>
+                    <th>Fecha Adopcion</th>
+                    <th>Imagen</th>
+                    <th>Raza</th>
+                    <th>Tipo</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="user : ${users}">
+                    <td th:text="${user.id_Animal}"></td>
+                    <td th:text="${user.nombre}"></td>
+                    <td th:text="${user.fecha_nacimiento}"></td>
+                    <td th:text="${user.fecha_adopcion}"></td>
+                    <td th:text="${user.id_imagen}"></td>
+                    <td th:text="${user.id_raza}"></td>
+                    <td th:text="${user.id_tipo}"></td>
+
+
+                    <td>
+
+                    </td>
+                </tr>
+                </tbody>
+                </table>
+              <!--  <p>This is Best Friends, is a free template from <a href="http://freecsstemplates.org/">Free CSS Templates</a>
                     released under a <a href="http://creativecommons.org/licenses/by/2.5/">Creative
                         Commons Attribution 2.5 License</a>. The flower photo is fromt <a href="http://www.pdphoto.org/">PDPhoto.org</a>. You're
                     free to use this template for both commercial or personal use. I only
                     ask that you link back to <a href="http://freecsstemplates.org/">my
-                        site</a> in some way. Enjoy :)</p>
+                        site</a> in some way. Enjoy :)</p>-->
             </div>
             <div class="meta">
-                <p class="byline">Posted on July 21, 2007
+                <!--<p class="byline">Posted on July 21, 2007
                     byFreeCssTemplates</p>
                 <p class="links"><a href="#" class="more">Read
-                    full article</a> <b>|</b> <a href="#" class="comments">Comments (32)</a></p>
+                    full article</a> <b>|</b> <a href="#" class="comments">Comments (32)</a></p>-->
             </div>
         </div>
         <!--<div class="post">
