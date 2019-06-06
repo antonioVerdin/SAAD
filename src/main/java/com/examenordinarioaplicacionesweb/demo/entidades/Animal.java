@@ -22,17 +22,16 @@ public class Animal {
         @Column(name="fecha_adopcion")
         private String fechaAdopcion;
 
-        @OneToOne(fetch = FetchType.EAGER) // Evitar errores
+        @OneToOne(fetch = FetchType.EAGER, mappedBy = "Animales") // Evitar errores
         @JoinColumn(name="id_imagen")
         private Imagen imagen;
 
-        @OneToOne(fetch = FetchType.EAGER)
+        @OneToOne(fetch = FetchType.EAGER, mappedBy = "Animales")
         @JoinColumn(name="id_raza")
         private Raza raza;
 
-        @OneToOne(fetch = FetchType.EAGER)
+        @ManyToOne(fetch = FetchType.EAGER)
         @JoinColumn(name="id_tipo")
         private Tipo tipo;
-
 
 }
