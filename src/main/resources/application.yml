@@ -1,7 +1,7 @@
 spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/prestamos?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/animales?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
     password: root
     maxActive: 10
@@ -9,7 +9,6 @@ spring:
     minIdle: 2
     initialSize: 5
     removeAbandoned: true
-
 
   jpa:
     show-sql: true
